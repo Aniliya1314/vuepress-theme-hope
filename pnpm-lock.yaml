@@ -168,8 +168,8 @@ importers:
         specifier: 14.2.1
         version: 14.2.1(sass@1.77.8)(webpack@5.92.1(esbuild@0.23.0))
       vidstack:
-        specifier: 1.11.26
-        version: 1.11.26
+        specifier: 1.11.29
+        version: 1.11.29
       vue:
         specifier: 3.4.31
         version: 3.4.31(typescript@5.5.3)
@@ -486,8 +486,8 @@ importers:
         specifier: 14.2.1
         version: 14.2.1(sass@1.77.8)(webpack@5.92.1(esbuild@0.23.0))
       vidstack:
-        specifier: 1.11.26
-        version: 1.11.26
+        specifier: 1.11.29
+        version: 1.11.29
       vue:
         specifier: 3.4.31
         version: 3.4.31(typescript@5.5.3)
@@ -8993,6 +8993,10 @@ packages:
 
   vidstack@1.11.26:
     resolution: {integrity: sha512-QY2n5prstL+KtbWGItZXlSeJ9Z5lFR25/GomA/ET4/WdoG1AeakAR+M42p5OKm4CjgsvBTnP5OTTo7k/D1qk/g==}
+    engines: {node: '>=18'}
+
+  vidstack@1.11.29:
+    resolution: {integrity: sha512-s8zclEHiTFcqWrOgrFYGFlmdTZxE2fXIeHA+2lRlRMhj6+nREuA1cyhXvkgtPt9U+a0iJ6JJE/rljBSW6C7x3Q==}
     engines: {node: '>=18'}
 
   vinyl-contents@2.0.0:
@@ -18456,6 +18460,13 @@ snapshots:
   vary@1.1.2: {}
 
   vidstack@1.11.26:
+    dependencies:
+      '@floating-ui/dom': 1.6.7
+      lit-html: 2.8.0
+      media-captions: 1.0.3
+      unplugin: 1.11.0
+
+  vidstack@1.11.29:
     dependencies:
       '@floating-ui/dom': 1.6.7
       lit-html: 2.8.0
