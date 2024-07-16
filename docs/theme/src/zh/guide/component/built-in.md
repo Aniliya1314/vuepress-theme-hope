@@ -33,7 +33,7 @@ tag:
 
 ::: note
 
-`<Badge />` 默认可用的，以便与 `@vuepress/theme-default` 行为一直。
+`<Badge />` 默认可用的，以便与 `@vuepress/theme-default` 行为一致。
 
 `<FontIcon />` 总会被启用，因为它被主题内部用于提供 [图标功能](../interface/icon.md)。
 
